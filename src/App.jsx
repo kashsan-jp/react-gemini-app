@@ -3,15 +3,17 @@ import ChatbotIcon from './components/ChatbotIcon'
 import './index.css'
 import ChatForm from './components/ChatForm'
 import ChatMessage from './components/ChatMessage'
-import { companyInfo } from './companyInfo'
+//import { companyInfo } from './companyInfo'
 
 const App = () => {
 
-  const [ chatHistory, setChatHistory ] = useState([{
-    hideInChat: true,
-    role: "model",
-    text: companyInfo
-  }]);
+  const [ chatHistory, setChatHistory ] = useState([
+    // {
+    // hideInChat: true,
+    // role: "model",
+    // text: companyInfo
+    // }
+  ]);
   const [ showChatbot, setShowChatbot ] = useState(false);
   const chatBodyRef = useRef();
 
