@@ -25,7 +25,7 @@ const ChatForm = ({chatHistory, setChatHistory, generateBotResponse}) => {
             {
                 role: "user", 
                 text: `Using the details provided above, 
-                please address this query${userMessage}` 
+                please address this query: ${userMessage}` 
             }]);
     
     };
