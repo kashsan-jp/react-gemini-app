@@ -15,9 +15,10 @@ body {
     /* background: linear-gradient(#f4f40ff, #3E0FBEFF) */
     background: linear-gradient(#EF8787FF, #E3E4F3FF);
 }
-body::-webkit-scrollbar{
-    display:none;
-  }
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
 
 #chatbot-toggler {
     position: fixed;
