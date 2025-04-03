@@ -219,8 +219,11 @@ body {
 
 @media (max-width: 520px) {
     #chatbot-toggler{
-        right:40px;
-        bottom: 20px;
+        position: fixed; 
+        z-index: 9999;
+        right:60px;
+        bottom:350px;
+        opacity: 0.5;
         
     }
     .chatbot-popup {
