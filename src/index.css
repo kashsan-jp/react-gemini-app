@@ -15,6 +15,9 @@ body {
     /* background: linear-gradient(#f4f40ff, #3E0FBEFF) */
     background: linear-gradient(#EF8787FF, #E3E4F3FF);
 }
+body::-webkit-scrollbar{
+    display:none;
+  }
 
 #chatbot-toggler {
     position: fixed;
