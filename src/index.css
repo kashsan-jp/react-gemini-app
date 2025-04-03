@@ -15,10 +15,7 @@ body {
     /* background: linear-gradient(#f4f40ff, #3E0FBEFF) */
     background: linear-gradient(#EF8787FF, #E3E4F3FF);
 }
-::-webkit-scrollbar {
-    width: 0;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
-}
+
 
 #chatbot-toggler {
     position: fixed;
@@ -75,6 +72,10 @@ body {
     opacity: 1;
     transform: scale(1);
     pointer-events: auto;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
 }
 .chatbot-popup .chat-header {
     display: flex;
