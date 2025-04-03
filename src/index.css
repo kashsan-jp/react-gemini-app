@@ -218,15 +218,16 @@ body {
 
 @media (max-width: 520px) {
     #chatbot-toggler{
-        right: 20px;
+        right:40px;
         bottom: 20px;
+        
     }
     .chatbot-popup {
-        right:0;
-        bottom: 0;
-        height: 100%;
-        border-radius: 0;
-        width: 100%;
+        /* right:0;
+        bottom: 0; */
+        height: 80%;
+        border-radius: 20px;
+        width: 90%%;
     }
     .chatbot-popup .chat-header {
         padding: 12px 15px;
